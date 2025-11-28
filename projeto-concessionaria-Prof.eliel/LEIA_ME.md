@@ -3,9 +3,13 @@ Este projeto é um sistema de gerenciamento de concessionária, feito com PHP + 
 O sistema permite controlar:
 
 **Funcionários**
+
 **Clientes**
+
 **Marcas**
+
 **Modelos de veículos**
+
 **Vendas**
 
 Cada uma dessas partes possui páginas para cadastrar, listar, editar e excluir registros.
@@ -13,7 +17,9 @@ Cada uma dessas partes possui páginas para cadastrar, listar, editar e excluir 
 ## Requisitos e Configuração
 Requisitos
 **XAMPP ou WAMP (para rodar PHP e MySQL)**
+
 **Navegador (Chrome, Edge etc.)**
+
 **Banco de dados MySQL**
 
 ## Instalar e rodar o servidor
@@ -31,8 +37,11 @@ Abra o navegador e digite: http://localhost/nome_da_pasta_do_projeto o sistema a
 ## Funcionalidade do CRUD
 
 **Cadastrar** O sistema recebe dados de formulários e salva no banco com insert
+
 **Listar** Mostra todos os registros usando select
+
 **Editar** Carrega os dados pelo ID, o usuário altera e o sistema usa update
+
 **Salvar** Essa funcionalidade e que salvar ou editar tudo no sistema usando update ou delete
 
 ### Fluxograma - Operação CRUD Completa de Funcionário
